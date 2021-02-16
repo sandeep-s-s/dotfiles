@@ -349,16 +349,16 @@
   # When set to `true`, selected text will be copied to the primary clipboard.
   #save_to_clipboard: false
 
-#cursor:
+cursor:
   # Cursor style
-  #style:
+  style:
     # Cursor shape
     #
     # Values for `shape`:
     #   - ▇ Block
     #   - _ Underline
     #   - | Beam
-    #shape: Block
+    shape: Beam
 
     # Cursor blinking state
     #
@@ -824,6 +824,7 @@ colors:
     text: '0x20201d'
     cursor: '0xa6a28c'
 
+
   # Normal colors
   normal:
     black:   '0x20201d'
@@ -899,3 +900,5 @@ window:
   # Values for `startup_mode` (macOS only):
   #   - SimpleFullscreen
   startup_mode: Maximized
+  decorations: none
+
