@@ -1,2 +1,1 @@
-set number
-set softtabstop=4
+/home/sandeep/.vimrc
